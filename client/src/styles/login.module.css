@@ -1,0 +1,42 @@
+/* login.module.css */
+
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;  /* This makes the container take the full height of the viewport */
+  width: 100vw;   /* This makes the container take the full width of the viewport */
+  position: absolute; /* Ensures that it can overlay any other content */
+  top: 0;
+  left: 0;
+  background: #000000; /* Black background for the login page */
+}
+
+.title {
+  color: #ffffff;  /* White text for better visibility on black background */
+  font-size: 24px;  /* Adjust size as necessary */
+  margin-bottom: 20px;  /* Space between title and button */
+}
+
+.button {
+  padding: 10px 20px;
+  font-size: 16px;
+  color: white; /* White text */
+  background-color: transparent; /* Transparent background */
+  border: 2px solid white; /* White border for visibility */
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.2s, color 0.2s;
+}
+
+.button:hover {
+  background-color: #ffffff; /* White background on hover */
+  color: #000000; /* Black text color on hover */
+}
